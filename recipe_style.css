@@ -31,6 +31,11 @@ ol, ul {
 
 li {
     list-style-type: none;
+    font-weight: 100;
+}
+
+strong {
+    font-weight: 400;
 }
 
 .bullet {
@@ -47,6 +52,7 @@ li {
     flex-direction: row;
     width: 90vw;
     line-height: 1.6em;
+    padding-bottom: 1em;
 }
 
 #ingredients, #instructions {
