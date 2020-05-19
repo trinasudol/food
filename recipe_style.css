@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: "Roboto Slab", serif;
+}
+
+#container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: left;
+    font-family: "Poiret One", Arial, Helvetica, sans-serif;
+    margin-bottom: 0em;
+}
+
+#num-servings {
+    text-align: left;
+    font-family: "Poiret One", Arial, Helvetica, sans-serif;
+    margin-top: 0em;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+ol, ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bullet {
+    position: relative;
+    right: 4px;
+}
+
+#ingredients .bullet {
+    right: 6px;
+}
+
+#recipe-content {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    line-height: 1.6em;
+}
+
+#ingredients, #instructions {
+    width: 45vw;
+    padding: 0vh 2vw;
+}
+
+#return {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 512px) {
+    #recipe-content {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    #ingredients, #instructions {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,34 @@
+:root {
+    --background: #3e5336;
+    --header: #e55b7e;
+    --headings: #f6da73;
+    --bullets: #e55b7e;
+    --main-text: #f6f5f0;
+    --note-text: #948f47;
+    --return-button: #f6da73;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--main-text);
+}
+
+h1 {
+    color: var(--header);
+}
+
+h3 {
+    color: var(--headings);
+}
+
+.bullet {
+    color: var(--bullets);
+}
+
+.note {
+    color: var(--note-text);
+}
+
+a {
+    color: var(--return-button);
+}

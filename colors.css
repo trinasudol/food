@@ -6,6 +6,7 @@
     --headings: #f6da73;
     --bullets: #e55b7e;
     --nav-links: #f6f5f0;
+    --hover-links: #948f47;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
 
 .o1, .o2 {
     color: var(--header-o);
-    z-index: 2;
 }
 
 .d {
@@ -35,4 +35,8 @@ h2 {
 
 a {
     color: var(--nav-links);
+}
+
+a:hover {
+    color: var(--hover-links);
 }
