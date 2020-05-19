@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font-family: "Poiret One", cursive;
+}
+
+.f {
+    position: relative;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.o1 {
+    position: relative;
+    top: -.5em;
+    right: .2em;
+}
+
+.o2 {
+    position: relative;
+    top: -.5em;
+    right: .4em;
+}
+
+.d {
+    position: relative;
+    top: -.25em;
+    right: .75em;
+}

@@ -1,0 +1,38 @@
+:root {
+    --background: #3e5336;
+    --header-f: #e55b7e;
+    --header-o: #948f47;
+    --header-d: #f6da73;
+    --headings: #f6da73;
+    --bullets: #e55b7e;
+    --nav-links: #f6f5f0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.f {
+    color: var(--header-f);
+}
+
+.o1, .o2 {
+    color: var(--header-o);
+    z-index: 2;
+}
+
+.d {
+    color: var(--header-d);
+}
+
+h2 {
+    color: var(--headings);
+}
+
+.bullet {
+    color: var(--bullets);
+}
+
+a {
+    color: var(--nav-links);
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    font-family: "Roboto Slab";
+}
+
+#categories {
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.category {
+    width: 20vw;
+    padding: 0vh 2vw;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bullet {
+    position: relative;
+    right: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* mobile screen: one column */
+@media (max-width: 1024px) {
+    #categories {
+        flex-direction: column;
+    }
+
+    .category {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
